@@ -14,10 +14,4 @@ public class MenuItems extends Parent{
     @FindBy(linkText = "Admin")
     public WebElement adminTab;
 
-    public WebElement getElement(String element) {
-        switch (element){
-            case "adminTab": return adminTab;
-        }
-        return null;
-    }
 }
