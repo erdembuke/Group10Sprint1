@@ -20,5 +20,10 @@ public class DialogItems extends Parent {
     @FindBy(xpath = "//button[text()=' Login ']")
     public WebElement loginBtn;
 
+    @FindBy(css = "div[class='orangehrm-header-container']>button")
+    public WebElement addBtnUserManag;
+
+    @FindBy(xpath = "//h6[text()='Add User']")
+    public WebElement AddUserMessaj;
 
 }

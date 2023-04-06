@@ -32,4 +32,7 @@ public class FundementalSteps {
     public void userClicksAdminTabOnTheMenuAndNavigatesUserManagementPage() {
         mi.clickFunction(mi.adminTab);
     }
+
+
+
 }
