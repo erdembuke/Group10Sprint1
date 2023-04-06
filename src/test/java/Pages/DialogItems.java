@@ -20,5 +20,9 @@ public class DialogItems extends Parent {
     @FindBy(xpath = "//button[text()=' Login ']")
     public WebElement loginBtn;
 
+    @FindBy(xpath = "//button[@class='oxd-button oxd-button--medium oxd-button--secondary']")
+    public WebElement addButtondisplayed;
+
+
 
 }
