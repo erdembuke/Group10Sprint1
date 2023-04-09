@@ -8,8 +8,7 @@ import io.cucumber.java.Scenario;
 public class Hooks {
 
     @After
-    public void after(Scenario scenario) {
-        ExcelReport.writeExcel("src/test/java/Reports/ScenarioStatus.xlsx" , scenario , WD.threadBrowserGet());
+    public void after() {
         WD.quitDriver();
     }
 }
