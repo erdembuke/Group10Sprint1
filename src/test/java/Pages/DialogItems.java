@@ -54,5 +54,8 @@ public class DialogItems extends Parent {
     @FindBy(xpath = "//div[@class='oxd-table-card']//div[@class='oxd-table-cell oxd-padding-cell'][2]")
     public WebElement verifyNameLocator;
 
+    @FindBy(xpath = "//button[@class='oxd-button oxd-button--medium oxd-button--secondary']")
+    public WebElement addBtnDisplay;
+
 
 }
