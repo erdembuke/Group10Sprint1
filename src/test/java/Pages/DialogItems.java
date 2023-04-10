@@ -70,13 +70,13 @@ public class DialogItems extends Parent {
     public WebElement PasswordMatchError;
 
     @FindBy(xpath = "//span[text()='Should have at least 8 characters']")
-    public WebElement atLeast8Char ;
-
-
-
-
+    public WebElement atLeast8Char;
 
     @FindBy(xpath = "//span[text()='Required']")
     public WebElement verifyNotSave;
 
+
+    @FindBy(xpath = "//h6[text()='Add User']")
+    public WebElement addUserMessaj;
 }
+
