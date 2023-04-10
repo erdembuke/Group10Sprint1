@@ -60,8 +60,21 @@ public class DialogItems extends Parent {
     @FindBy(xpath = "//input[@type='password'][1]")
     public WebElement formPassword;
 
+    @FindBy(xpath = "(//input[@type='password'])[2]")
+    public WebElement confirmPassword;
+
     @FindBy(xpath = "(//div[@class='oxd-form-row user-password-row']//span)[2]")
     public WebElement formPasswordError;
+
+    @FindBy(xpath = "//span[text()='Passwords do not match']")
+    public WebElement PasswordMatchError;
+
+    @FindBy(xpath = "//span[text()='Should have at least 8 characters']")
+    public WebElement atLeast8Char ;
+
+
+
+
 
     @FindBy(xpath = "//span[text()='Required']")
     public WebElement verifyNotSave;
