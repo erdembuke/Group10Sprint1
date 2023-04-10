@@ -63,4 +63,7 @@ public class DialogItems extends Parent {
     @FindBy(xpath = "(//div[@class='oxd-form-row user-password-row']//span)[2]")
     public WebElement formPasswordError;
 
+    @FindBy(xpath = "//span[text()='Required']")
+    public WebElement verifyNotSave;
+
 }
