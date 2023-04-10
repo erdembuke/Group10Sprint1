@@ -57,5 +57,10 @@ public class DialogItems extends Parent {
     @FindBy(xpath = "//button[@class='oxd-button oxd-button--medium oxd-button--secondary']")
     public WebElement addBtnDisplay;
 
+    @FindBy(xpath = "//input[@type='password'][1]")
+    public WebElement formPassword;
+
+    @FindBy(xpath = "(//div[@class='oxd-form-row user-password-row']//span)[2]")
+    public WebElement formPasswordError;
 
 }
