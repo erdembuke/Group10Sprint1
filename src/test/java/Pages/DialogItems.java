@@ -75,8 +75,11 @@ public class DialogItems extends Parent {
     @FindBy(xpath = "//span[text()='Required']")
     public WebElement verifyNotSave;
 
-
     @FindBy(xpath = "//h6[text()='Add User']")
     public WebElement addUserMessaj;
+
+    @FindBy(xpath = "//span[text()='Should be at least 5 characters']")
+    public WebElement shortUserNameMessage;
+
 }
 
