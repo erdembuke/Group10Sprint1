@@ -81,5 +81,14 @@ public class DialogItems extends Parent {
     @FindBy(xpath = "//span[text()='Should be at least 5 characters']")
     public WebElement shortUserNameMessage;
 
+    @FindBy(xpath = "(//div[@class='oxd-input-group__label-wrapper'])[4]")
+    public WebElement usernamee;
+
+    @FindBy(xpath = "(//div[@class='oxd-input-group__label-wrapper'])[5]")
+    public WebElement passwordd;
+
+    @FindBy(xpath = "(//div[@class='oxd-input-group__label-wrapper'])[6]")
+    public WebElement passworddcon;
+
 }
 
